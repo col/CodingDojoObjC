@@ -6,8 +6,8 @@ target 'CodingDojo' do
 end
 
 target 'CodingDojoTests' do
-  pod 'Expecta', '~> 0.3.2'
-  pod 'Specta',  '~> 0.3.2'
+  pod 'Expecta', '~> 1.0.0'
+  pod 'Specta',  '~> 1.0.0'
   pod 'OCMock',  '~> 3.1.2'  
 end
 

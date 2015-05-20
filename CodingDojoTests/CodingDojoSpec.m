@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
 
 SpecBegin(Thing)
 
@@ -15,6 +16,7 @@ describe(@"Thing", ^{
     
     it(@"should do stuff", ^{
         // This is an example block. Place your assertions here.
+        expect(true).to.beTruthy();
     });
     
 });

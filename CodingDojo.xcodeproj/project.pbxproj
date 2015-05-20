@@ -107,14 +107,7 @@
 		EFB0DF0B1B0C0233009D7581 /* CodingDojo */ = {
 			isa = PBXGroup;
 			children = (
-				EFB0DF101B0C0233009D7581 /* AppDelegate.h */,
-				EFB0DF111B0C0233009D7581 /* AppDelegate.m */,
-				EFB0DF131B0C0233009D7581 /* ViewController.h */,
-				EFB0DF141B0C0233009D7581 /* ViewController.m */,
-				EFB0DF161B0C0233009D7581 /* Main.storyboard */,
-				EFB0DF191B0C0233009D7581 /* Images.xcassets */,
-				EFB0DF1B1B0C0233009D7581 /* LaunchScreen.xib */,
-				EFB0DF0C1B0C0233009D7581 /* Supporting Files */,
+				EFF501651B0C0CB300F585CE /* App */,
 			);
 			path = CodingDojo;
 			sourceTree = "<group>";
@@ -131,8 +124,8 @@
 		EFB0DF251B0C0233009D7581 /* CodingDojoTests */ = {
 			isa = PBXGroup;
 			children = (
-				EFB0DF281B0C0233009D7581 /* CodingDojoTests.m */,
 				EFB0DF261B0C0233009D7581 /* Supporting Files */,
+				EFB0DF281B0C0233009D7581 /* CodingDojoTests.m */,
 				EFF501631B0C092600F585CE /* CodingDojoSpec.m */,
 			);
 			path = CodingDojoTests;
@@ -144,6 +137,21 @@
 				EFB0DF271B0C0233009D7581 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFF501651B0C0CB300F585CE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFB0DF101B0C0233009D7581 /* AppDelegate.h */,
+				EFB0DF111B0C0233009D7581 /* AppDelegate.m */,
+				EFB0DF131B0C0233009D7581 /* ViewController.h */,
+				EFB0DF141B0C0233009D7581 /* ViewController.m */,
+				EFB0DF161B0C0233009D7581 /* Main.storyboard */,
+				EFB0DF191B0C0233009D7581 /* Images.xcassets */,
+				EFB0DF1B1B0C0233009D7581 /* LaunchScreen.xib */,
+				EFB0DF0C1B0C0233009D7581 /* Supporting Files */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
