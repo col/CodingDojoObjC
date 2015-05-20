@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109608A180E7110A94DB1384 /* PrimeFactorsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 109609614F88B5AC387A97F1 /* PrimeFactorsSpec.m */; };
+		10960D1464B0D15E6939CDC8 /* PrimeFactors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1096031583CB3EFA1BB2F9DD /* PrimeFactors.m */; };
 		15FA2E19B97339F887EFA0F4 /* libPods-CodingDojoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E66C827F8731983E8720C2FE /* libPods-CodingDojoTests.a */; };
 		EFB0DF0F1B0C0233009D7581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB0DF0E1B0C0233009D7581 /* main.m */; };
 		EFB0DF121B0C0233009D7581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB0DF111B0C0233009D7581 /* AppDelegate.m */; };
@@ -14,8 +16,8 @@
 		EFB0DF181B0C0233009D7581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB0DF161B0C0233009D7581 /* Main.storyboard */; };
 		EFB0DF1A1B0C0233009D7581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB0DF191B0C0233009D7581 /* Images.xcassets */; };
 		EFB0DF1D1B0C0233009D7581 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB0DF1B1B0C0233009D7581 /* LaunchScreen.xib */; };
-		EFB0DF291B0C0233009D7581 /* CodingDojoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB0DF281B0C0233009D7581 /* CodingDojoTests.m */; };
-		EFF501641B0C092600F585CE /* CodingDojoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF501631B0C092600F585CE /* CodingDojoSpec.m */; };
+		EFF501681B0C0D4000F585CE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF501671B0C0D4000F585CE /* Game.m */; };
+		EFF5016A1B0C0D5400F585CE /* GameSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF501691B0C0D5400F585CE /* GameSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1096031583CB3EFA1BB2F9DD /* PrimeFactors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeFactors.m; sourceTree = "<group>"; };
+		109608FCC865943C1FA25C92 /* PrimeFactors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeFactors.h; sourceTree = "<group>"; };
+		109609614F88B5AC387A97F1 /* PrimeFactorsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeFactorsSpec.m; sourceTree = "<group>"; };
 		BE66F64166712A0AF378A7D9 /* Pods-CodingDojoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingDojoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodingDojoTests/Pods-CodingDojoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E66C827F8731983E8720C2FE /* libPods-CodingDojoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingDojoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF0B3889B7EC9106A62E360 /* Pods-CodingDojoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingDojoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodingDojoTests/Pods-CodingDojoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +49,9 @@
 		EFB0DF1C1B0C0233009D7581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EFB0DF221B0C0233009D7581 /* CodingDojoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingDojoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB0DF271B0C0233009D7581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFB0DF281B0C0233009D7581 /* CodingDojoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingDojoTests.m; sourceTree = "<group>"; };
-		EFF501631B0C092600F585CE /* CodingDojoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodingDojoSpec.m; sourceTree = "<group>"; };
+		EFF501661B0C0D4000F585CE /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		EFF501671B0C0D4000F585CE /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		EFF501691B0C0D5400F585CE /* GameSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				EFF501651B0C0CB300F585CE /* App */,
+				EFF501661B0C0D4000F585CE /* Game.h */,
+				EFF501671B0C0D4000F585CE /* Game.m */,
+				1096031583CB3EFA1BB2F9DD /* PrimeFactors.m */,
+				109608FCC865943C1FA25C92 /* PrimeFactors.h */,
 			);
 			path = CodingDojo;
 			sourceTree = "<group>";
@@ -125,8 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				EFB0DF261B0C0233009D7581 /* Supporting Files */,
-				EFB0DF281B0C0233009D7581 /* CodingDojoTests.m */,
-				EFF501631B0C092600F585CE /* CodingDojoSpec.m */,
+				EFF501691B0C0D5400F585CE /* GameSpec.m */,
+				109609614F88B5AC387A97F1 /* PrimeFactorsSpec.m */,
 			);
 			path = CodingDojoTests;
 			sourceTree = "<group>";
@@ -292,6 +302,8 @@
 				EFB0DF151B0C0233009D7581 /* ViewController.m in Sources */,
 				EFB0DF121B0C0233009D7581 /* AppDelegate.m in Sources */,
 				EFB0DF0F1B0C0233009D7581 /* main.m in Sources */,
+				EFF501681B0C0D4000F585CE /* Game.m in Sources */,
+				10960D1464B0D15E6939CDC8 /* PrimeFactors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFF501641B0C092600F585CE /* CodingDojoSpec.m in Sources */,
-				EFB0DF291B0C0233009D7581 /* CodingDojoTests.m in Sources */,
+				EFF5016A1B0C0D5400F585CE /* GameSpec.m in Sources */,
+				109608A180E7110A94DB1384 /* PrimeFactorsSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
