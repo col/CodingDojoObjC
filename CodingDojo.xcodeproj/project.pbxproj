@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15FA2E19B97339F887EFA0F4 /* libPods-CodingDojoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E66C827F8731983E8720C2FE /* libPods-CodingDojoTests.a */; };
 		EFB0DF0F1B0C0233009D7581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB0DF0E1B0C0233009D7581 /* main.m */; };
 		EFB0DF121B0C0233009D7581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB0DF111B0C0233009D7581 /* AppDelegate.m */; };
 		EFB0DF151B0C0233009D7581 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB0DF141B0C0233009D7581 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		EFB0DF1A1B0C0233009D7581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB0DF191B0C0233009D7581 /* Images.xcassets */; };
 		EFB0DF1D1B0C0233009D7581 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB0DF1B1B0C0233009D7581 /* LaunchScreen.xib */; };
 		EFB0DF291B0C0233009D7581 /* CodingDojoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB0DF281B0C0233009D7581 /* CodingDojoTests.m */; };
+		EFF501641B0C092600F585CE /* CodingDojoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF501631B0C092600F585CE /* CodingDojoSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE66F64166712A0AF378A7D9 /* Pods-CodingDojoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingDojoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodingDojoTests/Pods-CodingDojoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E66C827F8731983E8720C2FE /* libPods-CodingDojoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingDojoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF0B3889B7EC9106A62E360 /* Pods-CodingDojoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingDojoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodingDojoTests/Pods-CodingDojoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFB0DF091B0C0233009D7581 /* CodingDojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingDojo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB0DF0D1B0C0233009D7581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFB0DF0E1B0C0233009D7581 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		EFB0DF221B0C0233009D7581 /* CodingDojoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingDojoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB0DF271B0C0233009D7581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFB0DF281B0C0233009D7581 /* CodingDojoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingDojoTests.m; sourceTree = "<group>"; };
+		EFF501631B0C092600F585CE /* CodingDojoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodingDojoSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,18 +60,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15FA2E19B97339F887EFA0F4 /* libPods-CodingDojoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260BC37DA661CF3A6806BFC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E66C827F8731983E8720C2FE /* libPods-CodingDojoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD71B076C8506AFE79590CC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEF0B3889B7EC9106A62E360 /* Pods-CodingDojoTests.debug.xcconfig */,
+				BE66F64166712A0AF378A7D9 /* Pods-CodingDojoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EFB0DF001B0C0233009D7581 = {
 			isa = PBXGroup;
 			children = (
 				EFB0DF0B1B0C0233009D7581 /* CodingDojo */,
 				EFB0DF251B0C0233009D7581 /* CodingDojoTests */,
 				EFB0DF0A1B0C0233009D7581 /* Products */,
+				CD71B076C8506AFE79590CC1 /* Pods */,
+				260BC37DA661CF3A6806BFC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +133,7 @@
 			children = (
 				EFB0DF281B0C0233009D7581 /* CodingDojoTests.m */,
 				EFB0DF261B0C0233009D7581 /* Supporting Files */,
+				EFF501631B0C092600F585CE /* CodingDojoSpec.m */,
 			);
 			path = CodingDojoTests;
 			sourceTree = "<group>";
@@ -143,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFB0DF2F1B0C0233009D7581 /* Build configuration list for PBXNativeTarget "CodingDojoTests" */;
 			buildPhases = (
+				ACF48A41FC02BE5C5DCD2CF1 /* Check Pods Manifest.lock */,
 				EFB0DF1E1B0C0233009D7581 /* Sources */,
 				EFB0DF1F1B0C0233009D7581 /* Frameworks */,
 				EFB0DF201B0C0233009D7581 /* Resources */,
+				540E8DC00757CC1A59C6C891 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +243,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		540E8DC00757CC1A59C6C891 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodingDojoTests/Pods-CodingDojoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF48A41FC02BE5C5DCD2CF1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFB0DF051B0C0233009D7581 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -229,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF501641B0C092600F585CE /* CodingDojoSpec.m in Sources */,
 				EFB0DF291B0C0233009D7581 /* CodingDojoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +430,7 @@
 		};
 		EFB0DF301B0C0233009D7581 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF0B3889B7EC9106A62E360 /* Pods-CodingDojoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -386,6 +450,7 @@
 		};
 		EFB0DF311B0C0233009D7581 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE66F64166712A0AF378A7D9 /* Pods-CodingDojoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -418,6 +483,7 @@
 				EFB0DF2E1B0C0233009D7581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFB0DF2F1B0C0233009D7581 /* Build configuration list for PBXNativeTarget "CodingDojoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +492,7 @@
 				EFB0DF311B0C0233009D7581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
